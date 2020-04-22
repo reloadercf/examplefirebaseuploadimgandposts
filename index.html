@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo 11</title>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script>
+let firebaseConfig = {
+    apiKey: "AIzaSyBgESFQObHhupmT6Il0chVbyoAXBydc5o0",
+    authDomain: "laboratoriafire.firebaseapp.com",
+    databaseURL: "https://laboratoriafire.firebaseio.com",
+    projectId: "laboratoriafire",
+    storageBucket: "laboratoriafire.appspot.com",
+    messagingSenderId: "257946598029",
+    appId: "1:257946598029:web:ebf44261b53b89248500c4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script type="module" src="app.js"></script>
+<input type="text" id="body">
+<button id="addBtn"> crear post</button>
+<input type="file" id="file">
+
+</body>
+</html>
